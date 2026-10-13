@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Flex Quest</title>
+    <!-- Modern Gaming Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+    <!-- Game Header -->
+    <header class="game-header">
+        <h1>⚡ Neon Flex Quest</h1>
+
+        <div class="game-info">
+            <span>Lives: 3</span>
+            <span>Coins: 120</span>
+            <span>Level: 1</span>
+            <span>Score: 1250</span>
+        </div>
+
+        <div class="header-actions">
+            <button>Pause</button>
+            <button>Menu</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Game Area -->
+        <section class="game-area">
+            <h2>Cyber Grid Zone</h2>
+            <p class="message">Hack the grid and collect all the data stars!</p>
+
+            <div class="game-objects">
+                <div class="player">PLAYER</div>
+                <div class="star">⭐ DATA STAR</div>
+            </div>
+
+            <div class="platform-row">
+                <div class="platform">PLATFORM A</div>
+            </div>
+
+            <div class="platform-row">
+                <div class="platform">PLATFORM B1</div>
+                <div class="platform">PLATFORM B2</div>
+            </div>
+        </section>
+
+        <!-- Game Panels -->
+        <section class="game-panels">
+
+            <!-- Controls Panel -->
+            <div class="panel controls">
+                <h2>Controls</h2>
+
+                <div class="control-row">
+                    <button>↑</button>
+                </div>
+
+                <div class="control-row">
+                    <button>←</button>
+                    <button>↓</button>
+                    <button>→</button>
+                </div>
+
+                <button class="jump-button">JUMP</button>
+            </div>
+
+            <!-- Inventory Panel -->
+            <div class="panel inventory">
+                <h2>Inventory</h2>
+
+                <div class="inventory-items">
+                    <div class="item">⚔️ Plasma Blade</div>
+                    <div class="item">🛡️ Nano Shield</div>
+                    <div class="item">🧪 Nano Potion</div>
+                    <div class="item">🔑 Master Key</div>
+                    <div class="item">🏹 Energy Bow</div>
+                    <div class="item">⭐ Data Star</div>
+                </div>
+            </div>
+
+            <!-- Quest Panel -->
+            <div class="panel quest">
+                <h2>Active Quests</h2>
+
+                <div class="quest-item">
+                    <span>Collect 3 Data Stars</span>
+                    <span>1 / 3</span>
+                </div>
+
+                <div class="quest-item">
+                    <span>Find the Master Key</span>
+                    <span>0 / 1</span>
+                </div>
+
+                <div class="quest-item">
+                    <span>Decompile the Boss Core</span>
+                    <span>0 / 1</span>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Neon Flex Quest | Engineered with Custom CSS</p>
+    </footer>
+
+</body>
+</html>
